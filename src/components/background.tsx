@@ -85,6 +85,7 @@ export const Background = () => {
       },
     },
     detectRetina: true,
+    zLayers: 1,
   };
 
   if (init) {
