@@ -10,7 +10,7 @@ export const Button = ({
   return (
     <button
       onClick={action}
-      className="w-auto h-auto p-[15%] opacity-60 hover:opacity-100 hover:scale-110 active:scale-105 rounded-full transition-all bg-orange-400"
+      className="w-auto h-auto p-[15%] opacity-60 hover:opacity-100 hover:scale-110 active:scale-105 rounded-full transition-all bg-white text-gray-600"
     >
       {children}
     </button>

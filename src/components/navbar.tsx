@@ -7,7 +7,7 @@ interface NavBarProps {
 export const NavBar = ({ setCurrentPage }: NavBarProps) => {
   return (
     <div className="absolute top-[50%] translate-y-[-50%] right-[-60px] group-hover:right-10 transition-all flex flex-col justify-center items-center gap-10">
-      <div className="absolute right-[-70px] bg-blue-700 w-[150px] h-[300px] rounded-l-2xl"></div>
+      <div className="absolute right-[-70px] bg-[#313035] bg-opacity-40 group-hover:bg-opacity-100 w-[150px] h-[300px] rounded-l-2xl"></div>
       <Button action={() => setCurrentPage("Home")}>
         <HouseIcon size={42} />
       </Button>
